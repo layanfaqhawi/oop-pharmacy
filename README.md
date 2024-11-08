@@ -1,62 +1,24 @@
-# Project Title
+# OOP Pharmacy Management System
 
-Simple overview of use/purpose.
+## Project Description
+The OOP Pharmacy Management System is a C++ application designed to manage key operations in a pharmacy. It includes managing medications, prescriptions, and customer information, modeled using object-oriented programming principles.
 
-## Description
+## Features
+- **Customer Management**: Add and manage customer details, including contact information.
+- **Medication Management**: Maintain inventory for both over-the-counter and prescription medications, including details like price, stock, and expiry.
+- **Prescription Management**: Handle prescriptions with FDA approval tracking.
+- **Dynamic Arrays**: Dynamic resizing for efficient memory usage.
+- **Simple User Interface**: Menu-driven text-based interface for easy navigation.
 
-An in-depth paragraph about your project and overview of use.
+## Classes and Key Components
+- **Date Class**: Handles dates for prescriptions, medication expiry, and other date-related data.
+- **Address Class**: Stores customer contact information, including email, city, mobile number, and street address.
+- **Customer Class**: Manages customer details, with unique customer ID, name, and address.
+- **Medication Class**: Manages medication details, including name, price, stock, and expiry date.
+- **Prescription and OffTheShelf Classes**: Differentiates between prescription and over-the-counter medications.
+- **Pharmacy Class**: Aggregates all pharmacy functions, including managing medications, customers, and pharmacy details.
 
-## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+## Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
