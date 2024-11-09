@@ -6,7 +6,6 @@ The OOP Pharmacy Management System is a C++ application designed to manage key o
 ## Features
 - **Customer Management**: Add and manage customer details, including contact information.
 - **Medication Management**: Maintain inventory for both over-the-counter and prescription medications, including details like price, stock, and expiry.
-- **Prescription Management**: Handle prescriptions with FDA approval tracking.
 - **Dynamic Arrays**: Dynamic resizing for efficient memory usage.
 - **Simple User Interface**: Menu-driven text-based interface for easy navigation.
 
